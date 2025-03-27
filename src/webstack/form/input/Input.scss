@@ -1,0 +1,58 @@
+.input {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    padding: var(--s-2);
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  // Variants
+  .default {
+    background-color: var(--c-white);
+    border: 1px solid var(--c-gray-3);
+    color: var(--c-black);
+  }
+  
+  .outlined {
+    background-color: transparent;
+    border: 1px solid var(--c-gray-5);
+    color: var(--c-black);
+  }
+  
+  .ghost {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--c-gray-4);
+    color: var(--c-black);
+  }
+  
+  // Sizes
+  .xs {
+    font-size: 0.75rem;
+    padding: var(--s-1);
+  }
+  
+  .sm {
+    font-size: 0.875rem;
+    padding: var(--s-2);
+  }
+  
+  .md {
+    font-size: 1rem;
+    padding: var(--s-3);
+  }
+  
+  .lg {
+    font-size: 1.125rem;
+    padding: var(--s-4);
+  }
+  
+  .disabled {
+    background-color: var(--c-gray-2);
+    cursor: not-allowed;
+    color: var(--c-gray-6);
+    border-color: var(--c-gray-3);
+  }

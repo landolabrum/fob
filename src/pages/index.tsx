@@ -1,10 +1,18 @@
+import Input from '@/webstack/form/input/Input';
+import { useModal } from '@/webstack/modal/ModalContext';
+
 const Index = () => {
-    return (
-        <div>
-            <h1>My First Next.js App</h1>
-            <p>Welcome to my Next.js app!</p>
-        </div>
-    )
-}
+  const { openModal } = useModal();
+
+  return (
+    <div>
+      <Input type="button" onClick={() => openModal("HELLO WORLD")} >fdsa</Input>
+      {/* 
+      <button onClick={() => openModal("HELLO WORLD")}>
+        Launch Modal
+      </button> */}
+    </div>
+  );
+};
 
 export default Index;
