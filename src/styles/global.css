@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@300;500;700&display=swap");
+
+
+:root {
+    --c-white: #ffffff;
+    --c-black: #000000;
+
+    --c-gray-1: #f9f9f9;
+    --c-gray-1-o: #f9f9f970;
+
+    --c-gray-2: #f0f0f0;
+    --c-gray-2-o: #f0f0f070;
+
+    --c-gray-3: #e0e0e0;
+    --c-gray-3-o: #e0e0e070;
+
+    --c-gray-4: #d1d1d1;
+    --c-gray-4-o: #d1d1d170;
+
+    --c-gray-5: #bcbcbc;
+    --c-gray-5-o: #bcbcbc70;
+
+    --c-gray-6: #a6a6a6;
+    --c-gray-6-o: #a6a6a670;
+
+    --c-gray-7: #8f8f8f;
+    --c-gray-7-o: #8f8f8f70;
+
+    --c-gray-8: #6f6f6f;
+    --c-gray-8-o: #6f6f6f70;
+
+    --c-gray-9: #4c4c4c;
+    --c-gray-9-o: #4c4c4c70;
+
+    --c-gray-10: #2a2a2a;
+    --c-gray-10-o: #2a2a2a70;
+
+    --c-blue-1: #e6f0ff;
+    --c-blue-1-o: #e6f0ff70;
+    --c-blue-2: #cce0ff;
+    --c-blue-2-o: #cce0ff70;
+    --c-blue-3: #99c2ff;
+    --c-blue-3-o: #99c2ff70;
+    --c-blue-4: #66a3ff;
+    --c-blue-4-o: #66a3ff70;
+    --c-blue-5: #3385ff;
+    --c-blue-5-o: #3385ff70;
+    --c-blue-6: #0066ff;
+    --c-blue-6-o: #0066ff70;
+
+    /* SIZING */
+
+    --s-1: 5px;
+    --s-2: 10px;
+    --s-3: 15px;
+    --s-4: 20px;
+    --s-5: 25px;
+    --s-6: 30px;
+    --s-7: 40px;
+    --s-8: 50px;
+    --s-9: 60px;
+    --s-10: 80px;
+    --s-11: 100px;
+
+    --box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    --box-shadow-hover: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    --box-shadow-active: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    --box-shadow-focus: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+    --box-shadow-error: 0 0 10px 0 rgba(255, 0, 0, 0.5);
+    --box-shadow-success: 0 0 10px 0 rgba(0, 255, 0, 0.5);
+    --box-shadow-warning: 0 0 10px 0 rgba(255, 255, 0, 0.5);
+    --box-shadow-info: 0 0 10px 0 rgba(0, 0, 255, 0.5);
+    --box-shadow-disabled: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+html {
+    font-family: "Play", sans-serif;
+}
+
+body {
+    background-color: var(--c-gray-10);
+}
